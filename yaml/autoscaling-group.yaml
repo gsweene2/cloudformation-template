@@ -41,7 +41,7 @@
           Ref: DesiredCapacityASG
         LaunchConfigurationName: GarrettCfnLaunchConfiguration 
         MaxSize:
-          Ref: MaxSizeASGs
+          Ref: MaxSizeASG
         MinSize:
           Ref: MinSizeASG
         Tags:
